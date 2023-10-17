@@ -1,0 +1,29 @@
+.subscribe{
+    background-color: #30323e;
+    background-position: 50% 50%;
+    background-size: cover;
+    color: #fff!important;
+    padding: 5.3125rem 0 6.25rem;
+
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .subscribe-wrapper{
+        max-width: 100%;
+        width: 650px;
+
+        input{
+            background-color: transparent;
+            border: 0px;
+            border-bottom: 1px solid white;
+            color: white;
+            display: block;
+            line-height: normal;
+            padding: 1em 0;
+            transition: .2s;
+            width: 100%;
+        }
+    }
+}

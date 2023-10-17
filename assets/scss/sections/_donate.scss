@@ -1,0 +1,21 @@
+.donate{
+    background-color: #50717b;
+    color: white;
+
+    h1{
+        @extend .font-xx-lg;
+    }
+
+    p{
+        
+        @extend .font-lg;
+    }
+
+    .btn-cross{
+       height: 50px;
+       border-radius: 20px;
+       @extend .font-lg;
+    }
+
+    
+}

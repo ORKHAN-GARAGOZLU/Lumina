@@ -1,0 +1,110 @@
+.contact{
+  .info {
+    width: 100%;
+    background: #fff;
+  
+    i{
+      font-size: 20px;
+      color: $teal;
+      float: left;
+      width: 44px;
+      height: 44px;
+      background: #d6e9fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      transition: all 0.3s ease-in-out;
+    }
+    h4{
+      padding: 0 0 0 60px;
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: #2c4964;
+    }
+    p{
+      padding: 0 0 0 60px;
+      margin-bottom: 0;
+      font-size: 14px;
+      color: #4b7dab;
+    }
+    .email{
+      margin-top: 40px;
+
+    }
+    .phone{
+     margin-top: 40px;
+    }
+  }
+
+  .form-type {
+    width: 100%;
+    background: #fff;
+
+    input {
+      height: 44px;
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 14px;
+    }
+
+    textarea {
+      padding: 10px 12px;
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 14px;
+    }
+
+    .form-group {
+      padding-bottom: 8px;
+    }
+
+    .error-message {
+      display: none;
+      color: #fff;
+      background: #ed3c0d;
+      text-align: left;
+      padding: 15px;
+      font-weight: 600;
+    }
+
+    .sent-message {
+      display: none;
+      color: #fff;
+      background: #18d26e;
+      text-align: center;
+      padding: 15px;
+      font-weight: 600;
+    }
+  }
+
+}
+  
+  
+  .contact .info .email:hover i,
+  .contact .info .address:hover i,
+  .contact .info .phone:hover i {
+    background: $teal;
+    color: #fff;
+  }
+  
+
+ 
+  
+ 
+  
+ 
+  
+  
+  
+  
+  
+
+  
+  
+  
+ 
+  
+  
+  

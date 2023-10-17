@@ -108,6 +108,29 @@
 
     //*****Video-end*****//
 
+
+
+
+    //*****AboutUs-start*****//
+
+    .about-benefits{
+      margin-top: 40px;
+    }
+
+    //*****AboutUs-end*****//
+
+
+    //*****Donate-start*****//
+    .md{
+      display: flex;
+      flex-direction: column;
+    }
+    .donate-desc{
+      padding: 20px 0;
+    }
+
+    //*****Donate-end*****//
+
 }
 
 
@@ -201,18 +224,50 @@
 
 
 @media only screen and (max-width: 480px){
-    //*****Video-start*****//
+
+  //*****Video-start*****//
+
+  .swiper-container{
+
+    width: 100% !important;
+    height: 100px !important;
 
     .swiper-slide {
-        
+    
         .benefits{
-          font-size: 20px !important;
+            margin-top: 30px !important;
+            font-size: 20px !important;
           
         }
       
     }
+}
 
-    //*****Video-end*****//
+.vid{
+    
+}
+
+.video-items{
+    bottom: 350px !important;
+    font-size: 10px !important;
+    .video-request{
+    
+    }
+  }
+
+//*****Video-end*****//
+
+//*****AboutUs-start*****//
+
+.about-us{
+  padding: 10px 0 !important;
+}
+.title{
+  font-size: 16px !important;
+}
+
+//*****AboutUs-end*****//
+    
   
 }
 
@@ -249,6 +304,30 @@
       }
 
     //*****Video-end*****//
+
+
+    //*****AboutUs-start*****//
+    .about-us{
+      // background-color: white;
+      // padding: 70px;
+  
+      .title{
+          font-size: 20px !important;
+      }
+  
+      .about-benefits{
+  
+          .about-icon{
+  
+              img{
+                  width: 120px;
+                  margin-bottom: 40px;
+              }
+          }
+      }
+    }
+
+    //*****AboutUs-end*****//
   
 }
 
