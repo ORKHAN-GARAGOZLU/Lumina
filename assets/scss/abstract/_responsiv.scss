@@ -1,0 +1,51 @@
+//------------------------------------
+
+// $breakpoints: (
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px,
+//   xxl: 1398px,
+// );
+
+// @each $breakpoint, $value in $breakpoints {
+//   @media (max-width: $value) {
+//     .col-#{$breakpoint}-1 {
+//       width: percentage(1 / 12);
+//     }
+//     .col-#{$breakpoint}-2 {
+//       width: percentage(2 / 12);
+//     }
+//     .col-#{$breakpoint}-3 {
+//       width: percentage(3 / 12);
+//     }
+//     .col-#{$breakpoint}-4 {
+//       width: percentage(4 / 12);
+//     }
+//     .col-#{$breakpoint}-5 {
+//         width: percentage(5 / 12);
+//     }
+//     .col-#{$breakpoint}-6 {
+//         width: percentage(6 / 12);
+//     }
+
+//     .col-#{$breakpoint}-none {
+//         display: none;
+//     }
+//   }
+// }
+
+// //------------------------------------
+
+// @media only screen and (max-width: 1199px){
+//     .banner-bg {
+//         height: 800px;
+//     }
+// }
+
+
+
+
+
+
+

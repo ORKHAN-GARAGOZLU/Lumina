@@ -1,0 +1,38 @@
+$size: 300px;
+$base: 4px;
+
+
+.drawer-d{
+    width: $size;
+    min-height: 100vh;
+    background-color: rgb(22, 37, 51);
+    position: fixed;
+    padding: $base * 10 $base * 3;
+    transition: 0.5s;
+    z-index: 11;
+    top: 0px;
+    right: -$size;
+    color: white;
+
+    
+
+    
+    
+
+    .close{
+        cursor: pointer;
+        color: white;
+
+    }
+    
+}
+
+.show{
+    right: 0px;
+}
+
+
+
+
+
+

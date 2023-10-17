@@ -1,0 +1,89 @@
+// .container {
+//     width: 100%;
+//     padding-right: 15px;
+//     padding-left: 15px;
+//     margin-right: auto;
+//     margin-left: auto;
+// } 
+// @media (min-width: 576px) {
+//     .container {
+//         width: 540px;
+//     }
+// }
+// @media (min-width: 768px) {
+//     .container {
+//         width: 720px;
+//     }
+// }
+// @media (min-width: 992px) {
+//     .container {
+//         width: 960px;
+//     }
+// }
+// @media (min-width: 1200px) {
+//     .container {
+//         width: 1140px;
+//     }
+// }
+// @media (min-width: 1400px) {
+//     .container {
+//         width: 1340px;
+//     }
+// }
+
+// @use "sass:calc";
+
+
+// .container { 
+//     width: 100%; 
+//     padding-right: 35px; 
+//     padding-left: 35px; 
+//     margin-right: auto; 
+//     margin-left: auto; }
+
+
+// $grid: 12;
+
+
+// $breakpoints: ( 
+//     xs: 350px, 
+//     sm: 576px, 
+//     md: 768px, 
+//     lg: 992px, 
+//     xl: 1200px, 
+//     xxl: 1400px, );
+
+
+// @each $breakpoint, $width in $breakpoints { 
+//     @media (min-width: $width) { 
+//         @for $i from 1 through $grid { 
+//             $divided: calc.div($grid, $i); 
+//             $spacing: calc.div(12px * $divided, $divided - 1);
+  
+//             .col-#{$breakpoint}-#{$i} {
+//             width: calc.div(100%, $divided) - 12px;
+//            }
+  
+  
+//     .gap-#{$i} {
+//       gap: $spacing;
+//     }
+  
+//   }
+  
+//   } }
+
+
+// .row { 
+//     display: flex; 
+//     flex-wrap: wrap; 
+// }
+
+
+// .row::after { 
+//     content: ""; 
+//     display: table; 
+//     clear: both; 
+// }
+
+
