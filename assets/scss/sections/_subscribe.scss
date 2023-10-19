@@ -1,18 +1,22 @@
 .subscribe{
-    background-color: #30323e;
+    //background-color: #30323e;
     background-position: 50% 50%;
     background-size: cover;
-    color: #fff!important;
-    padding: 5.3125rem 0 6.25rem;
+    color: white;
+    padding: 80px 0px;
 
-    h2{
-        font-size: 40px;
-        font-weight: 700;
-    }
 
     .subscribe-wrapper{
         max-width: 100%;
         width: 650px;
+        
+        h2{
+            font-size: 40px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 17px;
+        }
 
         input{
             background-color: transparent;
@@ -24,6 +28,11 @@
             padding: 1em 0;
             transition: .2s;
             width: 100%;
+            outline: none;
+        }
+        .btn-cross{
+            margin-left: 15px;
+            font-weight: 500;
         }
     }
 }

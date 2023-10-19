@@ -13,16 +13,28 @@ $base: 4px;
     top: 0px;
     right: -$size;
     color: white;
-
     
-
-    
-    
-
     .close{
         cursor: pointer;
         color: white;
+        font-size: 30px;
+        transform: translateY(20px);
+    }
 
+    .search-drawer{
+        font-size: 20px;
+        transform: translateY(20px);
+
+    }
+
+    .logo{
+       margin-left: 20px;
+    }
+
+    .draver-nav{
+        a{
+            margin-left: 10px;
+        }
     }
     
 }
@@ -30,6 +42,8 @@ $base: 4px;
 .show{
     right: 0px;
 }
+
+
 
 
 

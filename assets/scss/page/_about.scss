@@ -1,0 +1,27 @@
+.about{
+
+    background-color: white;
+    img{
+        display: flex;
+        border-radius: 8px;
+        margin: auto;
+        width: 500px;
+    }
+
+    .about-content{
+        width: 480px;
+        margin: auto;
+
+        h1{
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 20px;
+
+        }
+
+    }
+
+    
+}

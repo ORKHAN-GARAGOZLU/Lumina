@@ -267,6 +267,41 @@
 }
 
 //*****AboutUs-end*****//
+
+
+//*****About-start*****//
+
+.about{
+
+  img{
+      display: flex;
+      border-radius: 8px;
+      margin: auto;
+      width: inherit !important;
+  }
+
+  .about-content{
+      width: inherit !important;
+      margin: auto;
+
+      h1{
+          font-size: 35px;
+      }
+
+      p{
+          font-size: 16px;
+
+      }
+
+  }
+
+  
+}
+
+
+
+
+//*****About-end*****//
     
   
 }
