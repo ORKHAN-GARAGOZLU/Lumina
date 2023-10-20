@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="./assets/css/main.css">
 
-    <title>Semi-Final</title>
+    <title>Lumina</title>
     
 </head>
 <body>
@@ -49,13 +49,14 @@
     <!-- Search -->
 
     <div class="fix-search">
+      <i class="fa-solid fa-xmark search-close"></i>
       <div class="search-header">
         <div class="logo">
           <img width="250" src="./assets/images/logo/drawer-logo.png" alt="">
         </div>
-        <form action="">
+        <form action="" method="post">
           <input type="search" autocomplete="off" placeholder="Search">
-          <button type="submit">search</button>
+          <button class="btn-cross" type="submit"><i class="search fas fa-search"></i></button>
         </form>
       </div>
     </div>
@@ -104,37 +105,51 @@
 
                     <nav class="col-xxl-8 col-xl-8">
                         <ul class="d-flex justify-content-center align-items-center column-gap-4">
-                            <li class="submenu-element pad"><a href="./pages/about.html">About <br> Lumina</a>
-                              <ul class="submenu">
-                                <li class="submenu-items"><a href="./pages/about.html">About Us</a></li>
-                                <li class="submenu-items"><a href="#">Volunteer</a></li>
-                                <li class="submenu-items"><a href="./pages/gallery.html">Gallery</a></li>
-                              </ul>
+                            <li class="submenu-element pad"><a href="">About <br> Lumina</a>
+                              <div class="submenu">
+                                <div class="submenu-items"> 
+                                  <ul class="">
+                                    <li><a href="./pages/about.html">About Lumina Hospital</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="./pages/gallery.html">Our Gallery</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">Health Library</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">Volunteer</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">Services</a><i class="fa-solid fa-angle-right"></i></li>
+                                  </ul>
+                                  <ul class="">
+                                    <li><a href="">About Lumina Hospital</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">Our Gallery</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">Health Library</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">Volunteer</a><i class="fa-solid fa-angle-right"></i></li>
+                                  </ul>
+                                  <img width="400px" src="./assets/images/gallery/gallery-7.jpg" alt="">
+                                </div>
+
+                              </div>
                             </li>
                             <li class="submenu-element pad"><a href="">Departments <br> & Conditions</a>
-                                <ul class="submenu">
-                                    <li class="submenu-items"><a href="#">Department 1</a></li>
-                                    <li class="submenu-items"><a href="#">Department 2</a></li>
-                                    <li class="submenu-items"><a href="#">Department 3</a></li>
-                                </ul>
+                              <div class="submenu">
+                                <div class="submenu-items"> 
+                                  <ul class="">
+                                    <li><a href="">Ophthalmology</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">Neurology</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">Radiology</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">Orthopedic Surgery</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">Dermatology</a><i class="fa-solid fa-angle-right"></i></li>
+                                  </ul>
+                                  <ul class="">
+                                    <li><a href="">Dentistry</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">Anesthesiology</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">Podiatry</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">Rheumatology</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">Surgical Services</a><i class="fa-solid fa-angle-right"></i></li>
+                                  </ul>
+                                  <img width="400px" src="./assets/images/gallery/gallery-3.jpg" alt="">
+                                </div>
+
+                              </div>
                             </li>
-                            <li class="submenu-element pad"><a href="">Health <br/>Library</a>
-                                <ul class="submenu">
-                                    <li class="submenu-items"><a href="#">Department 1</a></li>
-                                    <li class="submenu-items"><a href="#">Department 2</a></li>
-                                    <li class="submenu-items"><a href="#">Department 3</a></li>
-                                </ul>
-                            </li>
-                            <li class="pad"><a href="">Find doctor</a></li>
-                            <li class="submenu-element pad"><a href="">Services</a></i>
-                                <ul class="submenu">
-                                    <li class="submenu-items"><a href="#">Department 1</a></li>
-                                    <li class="submenu-items"><a href="#">Department 2</a></li>
-                                    <li class="submenu-items"><a href="#">Department 3</a></li>
-                                </ul>
-                            </li>
-                            
-                            <li class="pad"><a href="">Blog</a></li>
+                            <li class="pad"><a href="./pages/doctor.html">Find doctor</a></li>
+                            <li class="pad"><a href="./pages/blog.html">Blog</a></li>
                             <li class="pad"><a href="">Our products</a></li>
                         </ul>
                     </nav>
@@ -145,7 +160,7 @@
                             <a href=""> <i class="fa-regular fa-user"></i> Login</a>
                         </div>
 
-                        <a href="" class="site-search"><i class="search fas fa-search"></i></a>
+                        <a href="" class="site-search show-search"><i class="search fas fa-search"></i></a>
 
                         <button class="drawer show">
                             <i class="fa-solid fa-bars"></i>
@@ -415,7 +430,7 @@
     <!--End Subscribe Section -->
 
 
-  <!-- ======= Footer ======= -->
+  <!-- Footer -->
 
   <footer class="mt-5 footer" id="#">
 

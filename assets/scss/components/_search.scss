@@ -5,11 +5,18 @@
     left: 0;
     right: 0;
     bottom: 0;
-    color: #fff;
+    color: white;
     background-color: #181818;
     z-index: 20;
     padding: 1.5rem;
-    overflow: auto;
+    overflow: hidden;
+
+    .search-close{
+        right: 0;
+        cursor: pointer;
+        font-size: 30px;
+        
+    }
 
     .search-header{
         display: flex;
@@ -22,7 +29,7 @@
             margin-top: 50px;
 
             input{
-                width: 500px;
+                width: 700px;
                 height: 40px;
                 border-radius: 8px;
             }
@@ -34,4 +41,8 @@
         }
 
     }
+}
+
+.show-search{
+    display: block;
 }
