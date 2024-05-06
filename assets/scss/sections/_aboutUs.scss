@@ -1,20 +1,28 @@
-.about-us{
-    background-color: white;
-    padding: 70px;
+.about{
+  font-family: $Roboto;
 
-    .title{
-        font-size: 36px;
-    }
+  h2{
+    color: black;
+    font-weight: 700;
+    @extend .font-xx-lg;
+  }
 
-    .about-benefits{
-        text-align: center;
+  h3{
+    color: black;
+    font-weight: 700;
+    @extend .font-x-lg;
+  }
 
-        .about-icon{
+  p{
+    color: #717275;
+    @extend .font-md;
+    font-weight: 400;
+  }
 
-            img{
-                width: 120px;
-                margin-bottom: 40px;
-            }
-        }
-    }
+  h4{
+    @extend .font-x-lg;
+    font-weight: 700;
+    color: black;
+  }
 }
+

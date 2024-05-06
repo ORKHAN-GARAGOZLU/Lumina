@@ -4,15 +4,18 @@ $base: 4px;
 
 .drawer-d{
     width: $size;
-    min-height: 100vh;
+    //min-height: 100vh;
     background-color: rgb(22, 37, 51);
     position: fixed;
     padding: $base * 10 $base * 3;
     transition: 0.5s;
-    z-index: 11;
+    z-index: 1001;
     top: 0px;
-    right: -$size;
+    left: -$size;
     color: white;
+    height: 100%;
+    overflow-y: scroll;
+    
     
     .close{
         cursor: pointer;
@@ -21,32 +24,48 @@ $base: 4px;
         transform: translateY(20px);
     }
 
-    .search-drawer{
-        font-size: 20px;
-        transform: translateY(20px);
-
+    .drower-icon-list{
+      font-size: 25px;
     }
 
-    .logo{
-       margin-left: 20px;
-    }
-
-    .draver-nav{
-        a{
-            margin-left: 10px;
-        }
-    }
+    
     
 }
 
-.show{
-    right: 0px;
+.showleft{
+    left: 0px;
 }
 
 
 
+.accordion-section {
+  //border: 1px solid #ccc;
+  margin-bottom: 5px;
 
+}
 
+.accordion-title {
+  background-color: rgb(22, 37, 51);
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s;
+  color: white;
+}
 
+.accordion-title:hover {
+  background-color: #ddd;
+}
 
+.accordion-content {
+  display: none;
+  padding: 10px;
+
+  li{
+    border-bottom: 1px solid white;
+  }
+}
 

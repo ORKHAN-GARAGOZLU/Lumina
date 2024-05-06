@@ -1,0 +1,115 @@
+.login-bg{
+    background-color: rgb(152, 121, 121);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 100px 0px;
+
+	.login-items{
+		background-color: rgba(1, 21, 27, 0.25);
+		border-radius: 8px;
+		color: white;
+		font-weight: 300;
+		max-width: 650px;
+		padding: 0 30px 30px 30px;
+		margin: 30px auto 0 auto;
+
+		h1 {
+			font-weight: 300;
+			font-size: 36px;
+			line-height: normal;
+			margin: auto;
+			margin-top: 30px;
+			text-align: center;
+			color: white; 
+			margin-bottom: 40px; 
+		}
+
+		a{ 
+			color: white; 
+		}
+
+		.form-control{
+			background-color: rgba(83, 78, 78, 0.35);
+			border: 1px solid rgba(255, 255, 255, 0.27);
+			color: rgb(255,255,255);
+		}
+
+		.part{ 
+			border-right: 1px solid rgba(200, 200, 200, 0.5); 
+
+			
+
+			.form-group{
+				margin-bottom: 20px;
+
+				a{	
+					//line-height: 34px; 
+				}
+
+			}
+		}
+		.input-items{
+			position: relative;
+
+			.fa{
+				color: gray;
+				position: absolute;
+				left: 10px;
+				top: 10px;
+				font-size: 16px;
+			}
+			.show-password{
+				left: 250px;
+				cursor: pointer;
+			}
+
+			.select-blood{
+				left: 250px;
+			}
+
+			input{
+				padding-left: 30px;
+			}
+
+			textarea{
+				padding-left: 30px;
+			}
+		}
+
+		.control-label{ 
+			margin-bottom: 10px; 
+			padding-top: 0;
+		}
+
+		.right-side{
+
+			.login-sign-in{
+		        display: flex;
+			    flex-direction: column;
+			    line-height: 35px;
+			    text-align: center;
+
+				a{
+					border: 1px solid white;
+					border-radius: 8px;
+					margin-bottom: 15px;
+				}
+			}
+
+			.donate-blood{
+				.form-group{
+					margin-bottom: 20px;
+				}
+			}
+		}
+
+		.btn-cross{
+			width: 100%;
+			border: none;
+		}
+
+	}
+	
+}

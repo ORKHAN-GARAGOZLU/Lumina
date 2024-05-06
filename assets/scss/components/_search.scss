@@ -7,9 +7,10 @@
     bottom: 0;
     color: white;
     background-color: #181818;
-    z-index: 20;
+    z-index: 10006;
     padding: 1.5rem;
     overflow: hidden;
+    overflow-y: scroll;
 
     .search-close{
         right: 0;
@@ -29,15 +30,26 @@
             margin-top: 50px;
 
             input{
+                background-color: transparent;
+                border: 0px;
+                border-bottom: 1px solid white;
                 width: 700px;
                 height: 40px;
-                border-radius: 8px;
+                outline: none;
+                color: white;
             }
-            button{
-                height: 40px;
-                border-radius: 8px;
 
+            .search-box{
+                margin-top: 30px;
+                padding-left: 0;
+                
+                .search-items{
+                    margin: 0px 5px 5px 5px;
+                    font-size: 18px;
+                    border-bottom: 1px solid #dee2e6;
+                }
             }
+          
         }
 
     }

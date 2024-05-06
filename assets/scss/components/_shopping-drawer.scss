@@ -1,0 +1,110 @@
+$size: 320px;
+$base: 4px;
+
+
+.shopping-drawer{
+    width: $size;
+    //min-height: 100vh;
+    background-color: white;
+    position: fixed;
+    padding: $base * 10 $base * 3;
+    transition: 0.5s;
+    z-index: 1002;
+    top: 0px;
+    right: -$size;
+    color: black;
+    height: 100%;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+
+    h4{
+        color: #525252;
+        font-size: 30px;
+    }
+
+
+
+    .close{
+        cursor: pointer;
+        font-size: 40px;
+        //transform: translateY(20px);
+    }
+
+    &-list{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        
+    }
+
+    &-items{
+        display: flex;
+        
+        font-size: 18px;
+        color: black;
+        padding: 12px 8px;
+        align-items: center;
+        border-bottom: 1px solid #dee2e6;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+
+
+        .right-side{
+            width: 100%;
+            padding-left: 10px;
+
+            .shop-product{
+
+                &-name{
+                    margin-bottom: 3px;
+                    font-weight: 500;
+                    &:hover{
+                        color: $teal;
+                    }
+                }
+
+                &-count{
+                    font-size: 15px;
+
+                }
+
+                &-btn-list{
+                    font-size: 16px;
+                    display: flex;
+                    column-gap: 10px;
+                    margin-left: 20px;
+
+                    button{
+                        cursor: pointer;
+                        transition: 0.25s;
+                        padding: 4px 12px;
+    
+                        &:hover{
+                            opacity: 0.5;
+                        }
+                    }
+                }
+
+                &-price{
+                    font-weight: 500;
+                    
+                }
+            }
+        }
+
+        .product-remove{
+            cursor: pointer;
+            font-size: 25px;
+        }
+    }
+
+    .shopping-results{
+        row-gap: 6px;
+        bottom: 10px;
+    }
+}
+
+.showright{
+    right: 0px;
+}

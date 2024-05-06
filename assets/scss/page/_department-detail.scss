@@ -1,0 +1,103 @@
+.department-banner{
+    background-color: $teal;
+    border-radius: 0 0 4rem 0;
+    
+
+    &-items{
+        padding: 100px 0px 50px 0px;
+        
+        .department-name{
+            color: white;
+            font-size: 56px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .doctor-appointment-name{
+            color: white;
+            font-size: 40px;
+            font-weight: 300;
+            margin-bottom: 50px;
+        }
+
+        .department-request{
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+}
+.depatment{
+    
+    .tabs {
+        display: block;
+        padding-left: 0;
+        position: sticky;
+        top: 110px;
+        li {
+            display: block;
+            &:first-child {
+                margin-top: -1px;
+            }
+            a {
+                border: 1px solid #444444;
+                display: block;
+                background: #2c2c2c;
+                color: white;
+                text-transform: uppercase;
+                font-weight: 600;
+                padding: 30px 20px;
+                &.active {
+                    background: $teal;
+                    border-color: $teal;
+                    color: white;
+                    &:hover {
+                        color: white;
+                    }
+                }
+                &:hover {
+                    color: $teal;
+                }
+            }
+        }
+    }
+    .tabgroup {
+        //border: 1px solid $teal;
+        //padding: 30px;
+        transition: 0.3s;
+
+        .department-image{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        .department-description{
+            margin-top: 10px;
+        }
+
+        .department-contact{
+            background-color: #f1f1f1;
+
+            .depatment-contact-items{
+
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+
+
+                i{
+                    font-size: 25px;
+                    font-weight: 800;
+                    color: $teal;
+                    line-height: 40px;
+                    margin-right: 5px;
+                }
+
+            }
+
+            
+
+            .department-contact-image{
+                width: 100%;
+            }
+        }
+    }
+}

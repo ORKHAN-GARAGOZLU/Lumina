@@ -1,0 +1,138 @@
+.blog {
+  font-family: $Roboto;
+  background-color: #f4f4f4;
+
+  .tabs {
+    margin-top: 0px;
+    padding-left: 0;
+
+    ul{
+      padding-left: 0;
+    }
+    
+
+    li {
+      display: block;
+      text-align: left;
+      margin-bottom: 29px;
+    }
+
+    a {
+      display:block;
+      text-align: left;
+      text-decoration:none;
+      text-transform: uppercase;
+      letter-spacing: 0.1px;
+      color:#121212;
+      font-size: 20px;
+      font-weight: 700;
+      padding: 24px 25px;
+      background-color: #fff;
+      transition: all 0.3s;
+      box-shadow: 0px 0px 10px #cdcdcd;
+    }
+
+    .active {
+      background-color: $teal;
+      color: white;
+      
+      .info-post{
+        ul{
+          padding-left: 0;
+        }
+
+        li{
+          color: white;
+
+          i{
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  #first-tab-group {
+    margin-top: 0px;
+    margin-bottom: 15px;
+
+    img{
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+
+  .tabgroup{
+
+    ul{
+      padding-left: 0;
+    }
+
+    .text-content  {
+      background-color: white;
+      color: white;
+      padding: 25px;
+      text-align: left;
+      margin-top: -10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      position: relative;
+      box-shadow: 0px 0px 10px #cdcdcd;
+
+      h4 {
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #121212;
+        margin-top: 0px;
+        margin-bottom: 15px;
+      }
+
+     
+      
+
+      p {
+        margin-top: 17px;
+        color: #7a7a7a;
+      }
+    }
+
+  }
+}
+
+
+
+
+
+
+// .clearfix:after {
+//   content:"";
+//   display:table;
+//   clear:both;
+// }
+
+
+
+.blog .info-post li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.blog .info-post li {
+  color: #343434;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.blog .info-post li i {
+  color: $teal;
+  margin-right: 5px;
+}
+
+
+
+
+
+

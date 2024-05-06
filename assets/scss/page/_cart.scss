@@ -1,0 +1,113 @@
+.table-content {
+    table {
+        td {
+            &.product-subtotal {
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+
+        .cart-view-btn-list{
+            font-size: 18px;
+            button{
+                cursor: pointer;
+                transition: 0.25s;
+                padding: 4px 12px;
+                
+                &:hover{
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
+
+
+
+.coupon-all {
+    margin-top: 30px;
+    .coupon {
+        float: left;
+        input {
+            background-color: transparent;
+            border: 1px solid $teal;
+            font-size: 13px;
+            border-radius: 0;
+            height: 42px;
+            width: 120px;
+            padding: 0 10px;
+        }
+    }
+    .coupon,
+    .coupon2 {
+        input {
+            &.button {
+                background-color: #505050;
+                border: 0 none;
+                border-radius: 2px;
+                color: white;
+                display: inline-block;
+                font-size: 13px;
+                font-weight: 700;
+                cursor: pointer;
+                height: 42px;
+                letter-spacing: 1px;
+                line-height: 42px;
+                padding: 0 25px;
+                text-transform: uppercase;
+                transition: 0.3s;
+                width: inherit;
+                &:hover {
+                    background-color: $teal;
+                }
+            }
+        }
+        &.coupon2 {
+            float: right;
+            // @include breakpoint(max-xxs-device) {
+            //     margin-top: 15px;
+            // }
+        }
+    }
+}
+
+.cart-page-total {
+    padding-top: 30px;
+    > h2 {
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+    }
+    > ul {
+        border: 1px solid $teal;
+        padding-left: 0;
+        li {
+            list-style: none;
+            font-size: 15px;
+            padding: 10px 30px;
+            border-bottom: 1px solid $teal;
+            font-weight: 700;
+            &:last-child {
+                border-bottom: 0;
+            }
+            span {
+                float: right;
+            }
+        }
+    }
+    a {
+        background-color: #505050;
+        border: 0;
+        color: white;
+        display: inline-block;
+        margin-top: 30px;
+        padding: 10px 20px;
+        text-transform: capitalize;
+        transition: 0.3s;
+        &:hover {
+            background-color: $teal;
+            color: white;
+        }
+    }
+}

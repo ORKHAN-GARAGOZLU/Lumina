@@ -1,0 +1,34 @@
+.application-process{
+
+    .application-benefits{
+        margin-bottom: 30px;
+
+        h4{
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        ol{
+
+            padding-left: 0;
+            list-style: none;
+            counter-reset: listCounter;
+            margin-left: 32px;
+            
+            li{
+                margin-bottom: 10px;
+                counter-increment: listCounter;
+                position: relative;
+
+                &::before{
+                    content: "" counter(listCounter) ". ";
+                    display: inline-block;
+                    transform: translateX(-3ch);
+                    position: absolute;
+                }
+            }
+        }
+    }
+
+
+}
